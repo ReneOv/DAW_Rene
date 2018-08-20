@@ -1,0 +1,20 @@
+header{
+    font-family: Arial;
+    font-style: normal;
+    font-size: x-large;
+}
+
+aside{
+    float: right;
+    padding-right: 35%;
+}
+
+table{
+    border-color: white;
+}
+
+footer{
+    font-family: Arial;
+    font-style: oblique;
+    font-size: smaller;
+}
