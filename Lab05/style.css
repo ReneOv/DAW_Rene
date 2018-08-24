@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+}
+
+nav{
+    text-align: center;
+}
+
+table{
+    border-color: white;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3{
+    text-align: center;
+}
+
+.numberInput{
+    width: 70px;
+}
+
+.dinero{
+    text-align: right;
+}

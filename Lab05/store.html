@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 5: Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a> -- <a href="password.html">Password</a> -- <a href="store.html">Store</a> -- <a href="validaciones.html">Validaciones</a>
+</nav>
+
+<section>
+    <article>
+        <h3>Tienda de Items</h3>
+        <table id="items">
+            <tr>
+                <td> <img title="rab" src="rab.png"> </td>
+                <td> <img title="void" src="void.png"> </td>
+                <td> <img title="dark" src="dark.png" height="200"> </td>
+            </tr>
+            <tr>
+                <td> Rabaddon's Deathcap </td>
+                <td> Void Staff </td>
+                <td> Dark Seal </td>
+            </tr>
+            <tr>
+                <td> Precio: 3600 </td>
+                <td> Precio: 2650 </td>
+                <td> Precio: 350 </td>
+            </tr>
+            <tr>
+                <td> +120 AP | +40% AP </td>
+                <td> +70 AP | 40% MR Pen </td>
+                <td> +15 AP | +100 Mana </td>
+            </tr>
+            <tr>
+                <td> <label>Cantidad:</label>
+                    <input class="numberInput" type="number" id="numrab"> de <label id="maxrab">1</label>
+                    <br>
+                    <br>
+                    <button id="rab">Agregar</button> </td>
+                <td> <label>Cantidad:</label>
+                    <input class="numberInput" type="number" id="numvoid"> de <label id="maxvoid">2</label>
+                    <br>
+                    <br>
+                    <button id="void">Agregar</button> </td>
+                <td> <label>Cantidad:</label>
+                    <input class="numberInput" type="number" id="numdark"> de <label id="maxdark">6</label>
+                    <br>
+                    <br>
+                    <button id="dark">Agregar</button> </td>
+            </tr>
+        </table>
+
+        <p id="antetotal" class="dinero">Antetotal: 0 Gold</p>
+        <p id="iva" class="dinero">IVA: 0 Gold</p>
+        <p id="total" class="dinero">Total: 0 Gold</p>
+
+        <script type="text/javascript" src="stor.js"></script>
+    </article>
+</section>
+
+</body>
+</html>

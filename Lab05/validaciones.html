@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 5: Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a> -- <a href="password.html">Password</a> -- <a href="store.html">Store</a> -- <a href="validaciones.html">Validaciones</a>
+</nav>
+
+<section>
+    <article>
+        <p>Observa el siguiente video:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YQ1e7pMliYY?start=155&end=177" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p>Quién hubiera ganado el match, Palutena o Mewtwo?</p>
+        <br>
+        <form name="form" onsubmit="return checkAns()">
+            <input type="text" name="ans" required> ->
+            <button type="submit">Submit</button>
+        </form>
+        <label id="label"></label>
+    </article>
+</section>
+
+</body>
+</html>
